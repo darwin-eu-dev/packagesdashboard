@@ -20,7 +20,7 @@ params:
     input: text
   privacy:
     label: Repository Privacy
-    value: BOTH
+    value: PUBLIC
     choices: [PUBLIC, PRIVATE, BOTH]
 title: "`r params$title`"	
 ---
