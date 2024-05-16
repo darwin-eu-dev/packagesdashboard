@@ -1,13 +1,13 @@
-Package: tidyversedashboard
+Package: packagesdashboard
 Title: Tidyverse activity dashboard
 Version: 0.0.0.9000
 Authors@R: 
-    person("Jim", "Hester", , "james.f.hester@gmail.com", role = c("aut", "cre"))
-Description: A dashboard to show repository activity in tidyverse
+    person("Peter", "Rijnbeek", , "p.rijnbeek@erasmusmc.nl", role = c("aut", "cre"))
+Description: A dashboard to show repository activity in DARWIN EU
     organisations.
 License: MIT + file LICENSE
-URL: https://github.com/jimhester/tidyversedashboard
-BugReports: https://github.com/jimhester/tidyversedashboard/issues
+URL: https://github.com/darwin-eu-dev/pacakgesdashboard
+BugReports: https://github.com/darwin-eu-dev/pacakgesdashboard/issues
 Depends: 
     R (>= 3.4)
 Imports: 

@@ -4,11 +4,11 @@ output:
     orientation: rows
     vertical_layout: fill
     theme: paper
-    source_code: "https://github.com/jimhester/tidyversedashboard"
+    source_code: "https://github.com/darwin-eu-dev/packagesdashboard"
 params:
   title:
     label: Title of report
-    value: Tidyverse dashboard
+    value: DARWIN EU Packages Dashboard
     input: text
   start: 
     label: Start date of report
@@ -16,11 +16,11 @@ params:
     input: date
   orgs:
     label: GitHub organizations
-    value: tidyverse, r-lib, r-dbi, tidymodels
+    value: darwin-eu,darwin-eu-dev
     input: text
   privacy:
     label: Repository Privacy
-    value: PUBLIC
+    value: BOTH
     choices: [PUBLIC, PRIVATE, BOTH]
 title: "`r params$title`"	
 ---
@@ -36,7 +36,7 @@ library(purrr)
 library(tibble)
 library(codetools) # there was a weird error on connect that needed this
 library(DT)
-library(tidyversedashboard)
+library(packagesdashboard)
 library(tidyr)
 library(sparkline)
 library(ggplot2)
