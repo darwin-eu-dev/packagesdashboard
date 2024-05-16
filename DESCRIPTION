@@ -3,6 +3,7 @@ Title: Tidyverse activity dashboard
 Version: 0.0.0.9000
 Authors@R: 
     person("Peter", "Rijnbeek", , "p.rijnbeek@erasmusmc.nl", role = c("aut", "cre"))
+Maintainer: Peter Rijnbeek <p.rijnbeek@erasmusmc.nl>
 Description: A dashboard to show repository activity in DARWIN EU
     organisations.
 License: MIT + file LICENSE
